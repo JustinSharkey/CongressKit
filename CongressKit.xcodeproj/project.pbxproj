@@ -118,9 +118,9 @@
 		E5B552F62054CEB000FA68E4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E5B553052054CEB000FA68E4 /* NetworkingKit.swift */,
 				E5B552F72054CEB000FA68E4 /* URLRequestBuilder.swift */,
 				E5B552F82054CEB000FA68E4 /* Responses */,
-				E5B553052054CEB000FA68E4 /* NetworkingKit.swift */,
 				E5B553062054CEB000FA68E4 /* Models */,
 			);
 			path = Classes;

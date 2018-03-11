@@ -9,33 +9,33 @@
 import Foundation
 
 public struct SubjectsForBillResponse: Codable {
-    let copyright: String
-    let results: [Result]
-    let status: String
+    public let copyright: String
+    public let results: [Result]
+    public let status: String
     
     public struct Result: Codable {
-        let billId: String
-        let billSlug: String
-        let billType: String
-        let billUri: String
-        let committees: String
-        let congress: String
-        let housePassageVote: String
-        let introducedDate: String
-        let latestMajorAction: String
-        let latestMajorActionDate: String
-        let number: String
-        let numberOfCosponsors: Int
-        let senatePassageVote: String?
-        let sponsorId: String
-        let sponsorName: String
-        let sponsorParty: String
-        let sponsorState: String
-        let sponsorTitle: String
-        let sponsorUri: String
-        let subjects: [Subject]
-        let title: String
-        let urlNumber: String
+        public let billId: String
+        public let billSlug: String
+        public let billType: String
+        public let billUri: String
+        public let committees: String
+        public let congress: String
+        public let housePassageVote: String
+        public let introducedDate: String
+        public let latestMajorAction: String
+        public let latestMajorActionDate: String
+        public let number: String
+        public let numberOfCosponsors: Int
+        public let senatePassageVote: String?
+        public let sponsorId: String
+        public let sponsorName: String
+        public let sponsorParty: String
+        public let sponsorState: String
+        public let sponsorTitle: String
+        public let sponsorUri: String
+        public let subjects: [Subject]
+        public let title: String
+        public let urlNumber: String
         
         private enum CodingKeys: String, CodingKey {
             case billId = "bill_id"
@@ -63,8 +63,8 @@ public struct SubjectsForBillResponse: Codable {
         }
         
         public struct Subject: Codable {
-            let name: String
-            let urlName: String
+            public let name: String
+            public let urlName: String
             
             private enum CodingKeys: String, CodingKey {
                 case name

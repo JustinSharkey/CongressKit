@@ -9,16 +9,16 @@
 import Foundation
 
 public struct AmendmentsForBillResponse: Codable {
-    let copyright: String
-    let results: [Result]
-    let status: String
+    public let copyright: String
+    public let results: [Result]
+    public let status: String
     
     public struct Result: Codable {
-        let amendments: [Amendment]
-        let billId: String
-        let congress: String
-        let numResults: Int
-        let offset: Int
+        public let amendments: [Amendment]
+        public let billId: String
+        public let congress: String
+        public let numResults: Int
+        public let offset: Int
         
         private enum CodingKeys: String, CodingKey {
             case amendments
@@ -29,19 +29,19 @@ public struct AmendmentsForBillResponse: Codable {
         }
         
         public struct Amendment: Codable {
-            let amendmentNumber: String
-            let congressdotgovUrl: String
-            let introducedDate: String
-            let latestMajorAction: String
-            let latestMajorActionDate: String
-            let slug: String
-            let sponsor: String
-            let sponsorId: String
-            let sponsorParty: String
-            let sponsorState: String
-            let sponsorTitle: String
-            let sponsorUri: String
-            let title: String
+            public let amendmentNumber: String
+            public let congressdotgovUrl: String
+            public let introducedDate: String
+            public let latestMajorAction: String
+            public let latestMajorActionDate: String
+            public let slug: String
+            public let sponsor: String
+            public let sponsorId: String
+            public let sponsorParty: String
+            public let sponsorState: String
+            public let sponsorTitle: String
+            public let sponsorUri: String
+            public let title: String
             
             private enum CodingKeys: String, CodingKey {
                 case amendmentNumber = "amendment_number"

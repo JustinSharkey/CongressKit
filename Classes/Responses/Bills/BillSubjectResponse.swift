@@ -9,15 +9,15 @@
 import Foundation
 
 public struct BillSubjectResponse: Codable {
-    let copyright: String
-    let results: [Result]
-    let status: String
+    public let copyright: String
+    public let results: [Result]
+    public let status: String
     
     public struct Result: Codable {
-        let numResults: Int
-        let offset: Int
-        let query: String
-        let subjects: [Subject]
+        public let numResults: Int
+        public let offset: Int
+        public let query: String
+        public let subjects: [Subject]
         
         private enum CodingKeys: String, CodingKey {
             case numResults = "num_results"
@@ -27,8 +27,8 @@ public struct BillSubjectResponse: Codable {
         }
         
         public struct Subject: Codable {
-            let name: String
-            let urlName: String
+            public let name: String
+            public let urlName: String
             
             private enum CodingKeys: String, CodingKey {
                 case name

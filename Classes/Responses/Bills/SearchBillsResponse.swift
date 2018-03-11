@@ -9,14 +9,14 @@
 import Foundation
 
 public struct SearchBillsResponse: Codable {
-    let copyright: String
-    let results: [Result]
-    let status: String
+    public let copyright: String
+    public let results: [Result]
+    public let status: String
     
     public struct Result: Codable {
-        let bills: [Bill]
-        let numResults: Int
-        let offset: Int
+        public let bills: [Bill]
+        public let numResults: Int
+        public let offset: Int
         
         private enum CodingKeys: String, CodingKey {
             case bills
@@ -25,35 +25,35 @@ public struct SearchBillsResponse: Codable {
         }
         
         public struct Bill: Codable {
-            let active: Bool
-            let billId: String
-            let billType: String
-            let billUri: String
-            let committeeCodes: [String]
-            let committees: String
-            let congressdotgovUrl: String
-            let cosponsors: Int
-            let enacted: String?
-            let govtrackUrl: String
-            let gpoPdfUri: String?
-            let housePassage: String?
-            let introducedDate: String
-            let latestMajorAction: String
-            let latestMajorActionDate: String
-            let number: String
-            let primarySubject: String
-            let senatePassage: String?
-            let sponsorId: String
-            let sponsorName: String
-            let sponsorParty: String
-            let sponsorState: String
-            let sponsorTitle: String
-            let sponsorUri: String
-            let subcommitteeCodes: [String]?
-            let summary: String
-            let summaryShort: String
-            let title: String
-            let vetoed: String?
+            public let active: Bool
+            public let billId: String
+            public let billType: String
+            public let billUri: String
+            public let committeeCodes: [String]
+            public let committees: String
+            public let congressdotgovUrl: String
+            public let cosponsors: Int
+            public let enacted: String?
+            public let govtrackUrl: String
+            public let gpoPdfUri: String?
+            public let housePassage: String?
+            public let introducedDate: String
+            public let latestMajorAction: String
+            public let latestMajorActionDate: String
+            public let number: String
+            public let primarySubject: String
+            public let senatePassage: String?
+            public let sponsorId: String
+            public let sponsorName: String
+            public let sponsorParty: String
+            public let sponsorState: String
+            public let sponsorTitle: String
+            public let sponsorUri: String
+            public let subcommitteeCodes: [String]?
+            public let summary: String
+            public let summaryShort: String
+            public let title: String
+            public let vetoed: String?
             
             private enum CodingKeys: String, CodingKey {
                 case active

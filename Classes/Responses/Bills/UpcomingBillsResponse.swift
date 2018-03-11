@@ -9,31 +9,31 @@
 import Foundation
 
 public struct UpcomingBillsResponse: Codable {
-    let copyright: String
-    let results: [Result]
-    let status: String
+    public let copyright: String
+    public let results: [Result]
+    public let status: String
     
     public struct Result: Codable {
-        let bills: [Bill]?
-        let date: String
+        public let bills: [Bill]?
+        public let date: String
         
         public struct Bill: Codable {
-            let apiUri: String
-            let billId: String
-            let billNumber: String
-            let billSlug: String
-            let billType: String
-            let billUrl: String
-            let chamber: String
-            let congress: String
-            let consideration: String
-            let context: String?
-            let description: String
-            let legislativeDay: String
-            let range: String
-            let scheduledAt: String
-            let sourceType: String
-            let url: String
+            public let apiUri: String
+            public let billId: String
+            public let billNumber: String
+            public let billSlug: String
+            public let billType: String
+            public let billUrl: String
+            public let chamber: String
+            public let congress: String
+            public let consideration: String
+            public let context: String?
+            public let description: String
+            public let legislativeDay: String
+            public let range: String
+            public let scheduledAt: String
+            public let sourceType: String
+            public let url: String
 
             private enum CodingKeys: String, CodingKey {
                 case apiUri = "api_uri"

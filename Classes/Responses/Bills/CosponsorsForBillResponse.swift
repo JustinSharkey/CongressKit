@@ -9,30 +9,30 @@
 import Foundation
 
 public struct CosponsorsForBillResponse: Codable {
-    let copyright: String
-    let results: [Result]
-    let status: String
+    public let copyright: String
+    public let results: [Result]
+    public let status: String
     
     public struct Result: Codable {
-        let bill: String
-        let committees: String
-        let congress: String
-        let cosponsors: [Cosponsor]
-        let cosponsorsByParty: [CosponsorsByParty]
-        let housePassageVote: String?
-        let introducedDate: String
-        let latestMajorAction: String
-        let latestMajorActionDate: String
-        let numberOfCosponsors: Int
-        let senatePassageVote: String?
-        let sponsorId: String
-        let sponsorName: String
-        let sponsorParty: String
-        let sponsorState: String
-        let sponsorTitle: String
-        let sponsorUri: String
-        let title: String
-        let urlNumber: String
+        public let bill: String
+        public let committees: String
+        public let congress: String
+        public let cosponsors: [Cosponsor]
+        public let cosponsorsByParty: [CosponsorsByParty]
+        public let housePassageVote: String?
+        public let introducedDate: String
+        public let latestMajorAction: String
+        public let latestMajorActionDate: String
+        public let numberOfCosponsors: Int
+        public let senatePassageVote: String?
+        public let sponsorId: String
+        public let sponsorName: String
+        public let sponsorParty: String
+        public let sponsorState: String
+        public let sponsorTitle: String
+        public let sponsorUri: String
+        public let title: String
+        public let urlNumber: String
         
         private enum CodingKeys: String, CodingKey {
             case bill
@@ -57,13 +57,13 @@ public struct CosponsorsForBillResponse: Codable {
         }
         
         public struct Cosponsor: Codable {
-            let cosponsorId: String
-            let cosponsorParty: String
-            let cosponsorState: String
-            let cosponsorTitle: String
-            let cosponsorUri: String
-            let date: String
-            let name: String
+            public let cosponsorId: String
+            public let cosponsorParty: String
+            public let cosponsorState: String
+            public let cosponsorTitle: String
+            public let cosponsorUri: String
+            public let date: String
+            public let name: String
             
             private enum CodingKeys: String, CodingKey {
                 case cosponsorId = "cosponsor_id"
@@ -76,11 +76,11 @@ public struct CosponsorsForBillResponse: Codable {
             }
         }
         public struct CosponsorsByParty: Codable {
-            let party: Party
+            public let party: Party
             
             public struct Party: Codable {
-                let id: String
-                let sponsors: String
+                public let id: String
+                public let sponsors: String
             }
         }
                 

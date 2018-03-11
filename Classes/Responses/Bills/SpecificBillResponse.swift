@@ -9,52 +9,52 @@
 import Foundation
 
 public struct SpecificBillResponse: Codable {
-    let copyright: String
-    let results: [Result]
-    let status: String
+    public let copyright: String
+    public let results: [Result]
+    public let status: String
     
     public struct Result: Codable {
-        let actions: [Action]
-        let active: Bool
-        let bill: String
-        let billId: String
-        let billSlug: String
-        let billType: String
-        let billUri: String
-        let committeeCodes: [String]
-        let committees: String
-        let congress: String
-        let congressdotgovUrl: String
-        let cosponsors: Int
-        let cosponsorsByParty: CosponsorsByParty
-        let enacted: String?
-        let govtrackUrl: String
-        let gpoPdfUri: String?
-        let housePassage: String
-        let housePassageVote: String
-        let introducedDate: String
-        let lastVote: String
-        let latestMajorAction: String
-        let latestMajorActionDate: String
-        let number: String
-        let primarySubject: String
-        let senatePassage: String?
-        let senatePassageVote: String?
-        let shortTitle: String
-        let sponsor: String
-        let sponsorId: String
-        let sponsorParty: String
-        let sponsorState: String
-        let sponsorTitle: String
-        let sponsorUri: String
-        let subcommitteeCodes: [String]
-        let summary: String
-        let summaryShort: String
-        let title: String
-        let versions: [String]
-        let vetoed: String?
-        let votes: [Vote]
-        let withdrawnCosponsors: Int
+        public let actions: [Action]
+        public let active: Bool
+        public let bill: String
+        public let billId: String
+        public let billSlug: String
+        public let billType: String
+        public let billUri: String
+        public let committeeCodes: [String]
+        public let committees: String
+        public let congress: String
+        public let congressdotgovUrl: String
+        public let cosponsors: Int
+        public let cosponsorsByParty: CosponsorsByParty
+        public let enacted: String?
+        public let govtrackUrl: String
+        public let gpoPdfUri: String?
+        public let housePassage: String
+        public let housePassageVote: String
+        public let introducedDate: String
+        public let lastVote: String
+        public let latestMajorAction: String
+        public let latestMajorActionDate: String
+        public let number: String
+        public let primarySubject: String
+        public let senatePassage: String?
+        public let senatePassageVote: String?
+        public let shortTitle: String
+        public let sponsor: String
+        public let sponsorId: String
+        public let sponsorParty: String
+        public let sponsorState: String
+        public let sponsorTitle: String
+        public let sponsorUri: String
+        public let subcommitteeCodes: [String]
+        public let summary: String
+        public let summaryShort: String
+        public let title: String
+        public let versions: [String]
+        public let vetoed: String?
+        public let votes: [Vote]
+        public let withdrawnCosponsors: Int
         
         private enum CodingKeys: String, CodingKey {
             case actions
@@ -101,11 +101,11 @@ public struct SpecificBillResponse: Codable {
         }
         
         public struct Action: Codable {
-            let actionType: String
-            let chamber: String
-            let datetime: String
-            let description: String
-            let id: Int
+            public let actionType: String
+            public let chamber: String
+            public let datetime: String
+            public let description: String
+            public let id: Int
             
             private enum CodingKeys: String, CodingKey {
                 case actionType = "action_type"
@@ -117,21 +117,21 @@ public struct SpecificBillResponse: Codable {
         }
         
         public struct CosponsorsByParty: Codable {
-            let D: Int
-            let R: Int
+            public let D: Int
+            public let R: Int
         }
         
         public struct Vote: Codable {
-            let apiUrl: String
-            let chamber: String
-            let date: String
-            let question: String
-            let result: String
-            let rollCall: String
-            let time: String
-            let totalNo: Int
-            let totalNotVoting: Int
-            let totalYes: Int
+            public let apiUrl: String
+            public let chamber: String
+            public let date: String
+            public let question: String
+            public let result: String
+            public let rollCall: String
+            public let time: String
+            public let totalNo: Int
+            public let totalNotVoting: Int
+            public let totalYes: Int
             
             private enum CodingKeys: String, CodingKey {
                 case apiUrl = "api_url"
