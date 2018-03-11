@@ -10,20 +10,20 @@
 		E5B552C620549FC600FA68E4 /* CongressKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B552BC20549FC600FA68E4 /* CongressKit.framework */; };
 		E5B552CB20549FC600FA68E4 /* CongressKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552CA20549FC600FA68E4 /* CongressKitTests.swift */; };
 		E5B552CD20549FC600FA68E4 /* CongressKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B552BF20549FC600FA68E4 /* CongressKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5B552E82054A08600FA68E4 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552D72054A08600FA68E4 /* URLRequestBuilder.swift */; };
-		E5B552E92054A08600FA68E4 /* SpecificBillResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552DA2054A08600FA68E4 /* SpecificBillResponse.swift */; };
-		E5B552EA2054A08600FA68E4 /* RecentBillsByMemberResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552DB2054A08600FA68E4 /* RecentBillsByMemberResponse.swift */; };
-		E5B552EB2054A08600FA68E4 /* RecentBillsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552DC2054A08600FA68E4 /* RecentBillsResponse.swift */; };
-		E5B552EC2054A08600FA68E4 /* AmendmentsForBillResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552DD2054A08600FA68E4 /* AmendmentsForBillResponse.swift */; };
-		E5B552ED2054A08600FA68E4 /* SearchBillsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552DE2054A08600FA68E4 /* SearchBillsResponse.swift */; };
-		E5B552EE2054A08600FA68E4 /* SubjectsForBillResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552DF2054A08600FA68E4 /* SubjectsForBillResponse.swift */; };
-		E5B552EF2054A08600FA68E4 /* RelatedBillsForBillResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552E02054A08600FA68E4 /* RelatedBillsForBillResponse.swift */; };
-		E5B552F02054A08600FA68E4 /* BillSubjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552E12054A08600FA68E4 /* BillSubjectResponse.swift */; };
-		E5B552F12054A08600FA68E4 /* RecentBillsBySubjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552E22054A08600FA68E4 /* RecentBillsBySubjectResponse.swift */; };
-		E5B552F22054A08600FA68E4 /* UpcomingBillsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552E32054A08600FA68E4 /* UpcomingBillsResponse.swift */; };
-		E5B552F32054A08600FA68E4 /* CosponsorsForBillResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552E42054A08600FA68E4 /* CosponsorsForBillResponse.swift */; };
-		E5B552F42054A08600FA68E4 /* NetworkingKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552E52054A08600FA68E4 /* NetworkingKit.swift */; };
-		E5B552F52054A08600FA68E4 /* Chamber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552E72054A08600FA68E4 /* Chamber.swift */; };
+		E5B553082054CEB000FA68E4 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552F72054CEB000FA68E4 /* URLRequestBuilder.swift */; };
+		E5B553092054CEB000FA68E4 /* SpecificBillResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552FA2054CEB000FA68E4 /* SpecificBillResponse.swift */; };
+		E5B5530A2054CEB000FA68E4 /* RecentBillsByMemberResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552FB2054CEB000FA68E4 /* RecentBillsByMemberResponse.swift */; };
+		E5B5530B2054CEB000FA68E4 /* RecentBillsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552FC2054CEB000FA68E4 /* RecentBillsResponse.swift */; };
+		E5B5530C2054CEB000FA68E4 /* AmendmentsForBillResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552FD2054CEB000FA68E4 /* AmendmentsForBillResponse.swift */; };
+		E5B5530D2054CEB000FA68E4 /* SearchBillsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552FE2054CEB000FA68E4 /* SearchBillsResponse.swift */; };
+		E5B5530E2054CEB000FA68E4 /* SubjectsForBillResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B552FF2054CEB000FA68E4 /* SubjectsForBillResponse.swift */; };
+		E5B5530F2054CEB000FA68E4 /* RelatedBillsForBillResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B553002054CEB000FA68E4 /* RelatedBillsForBillResponse.swift */; };
+		E5B553102054CEB000FA68E4 /* BillSubjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B553012054CEB000FA68E4 /* BillSubjectResponse.swift */; };
+		E5B553112054CEB000FA68E4 /* RecentBillsBySubjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B553022054CEB000FA68E4 /* RecentBillsBySubjectResponse.swift */; };
+		E5B553122054CEB000FA68E4 /* UpcomingBillsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B553032054CEB000FA68E4 /* UpcomingBillsResponse.swift */; };
+		E5B553132054CEB000FA68E4 /* CosponsorsForBillResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B553042054CEB000FA68E4 /* CosponsorsForBillResponse.swift */; };
+		E5B553142054CEB000FA68E4 /* NetworkingKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B553052054CEB000FA68E4 /* NetworkingKit.swift */; };
+		E5B553152054CEB000FA68E4 /* Chamber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B553072054CEB000FA68E4 /* Chamber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,20 +43,20 @@
 		E5B552C520549FC600FA68E4 /* CongressKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CongressKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B552CA20549FC600FA68E4 /* CongressKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongressKitTests.swift; sourceTree = "<group>"; };
 		E5B552CC20549FC600FA68E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5B552D72054A08600FA68E4 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
-		E5B552DA2054A08600FA68E4 /* SpecificBillResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificBillResponse.swift; sourceTree = "<group>"; };
-		E5B552DB2054A08600FA68E4 /* RecentBillsByMemberResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentBillsByMemberResponse.swift; sourceTree = "<group>"; };
-		E5B552DC2054A08600FA68E4 /* RecentBillsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentBillsResponse.swift; sourceTree = "<group>"; };
-		E5B552DD2054A08600FA68E4 /* AmendmentsForBillResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmendmentsForBillResponse.swift; sourceTree = "<group>"; };
-		E5B552DE2054A08600FA68E4 /* SearchBillsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBillsResponse.swift; sourceTree = "<group>"; };
-		E5B552DF2054A08600FA68E4 /* SubjectsForBillResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectsForBillResponse.swift; sourceTree = "<group>"; };
-		E5B552E02054A08600FA68E4 /* RelatedBillsForBillResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelatedBillsForBillResponse.swift; sourceTree = "<group>"; };
-		E5B552E12054A08600FA68E4 /* BillSubjectResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillSubjectResponse.swift; sourceTree = "<group>"; };
-		E5B552E22054A08600FA68E4 /* RecentBillsBySubjectResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentBillsBySubjectResponse.swift; sourceTree = "<group>"; };
-		E5B552E32054A08600FA68E4 /* UpcomingBillsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingBillsResponse.swift; sourceTree = "<group>"; };
-		E5B552E42054A08600FA68E4 /* CosponsorsForBillResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosponsorsForBillResponse.swift; sourceTree = "<group>"; };
-		E5B552E52054A08600FA68E4 /* NetworkingKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingKit.swift; sourceTree = "<group>"; };
-		E5B552E72054A08600FA68E4 /* Chamber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chamber.swift; sourceTree = "<group>"; };
+		E5B552F72054CEB000FA68E4 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
+		E5B552FA2054CEB000FA68E4 /* SpecificBillResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificBillResponse.swift; sourceTree = "<group>"; };
+		E5B552FB2054CEB000FA68E4 /* RecentBillsByMemberResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentBillsByMemberResponse.swift; sourceTree = "<group>"; };
+		E5B552FC2054CEB000FA68E4 /* RecentBillsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentBillsResponse.swift; sourceTree = "<group>"; };
+		E5B552FD2054CEB000FA68E4 /* AmendmentsForBillResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmendmentsForBillResponse.swift; sourceTree = "<group>"; };
+		E5B552FE2054CEB000FA68E4 /* SearchBillsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBillsResponse.swift; sourceTree = "<group>"; };
+		E5B552FF2054CEB000FA68E4 /* SubjectsForBillResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectsForBillResponse.swift; sourceTree = "<group>"; };
+		E5B553002054CEB000FA68E4 /* RelatedBillsForBillResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelatedBillsForBillResponse.swift; sourceTree = "<group>"; };
+		E5B553012054CEB000FA68E4 /* BillSubjectResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillSubjectResponse.swift; sourceTree = "<group>"; };
+		E5B553022054CEB000FA68E4 /* RecentBillsBySubjectResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentBillsBySubjectResponse.swift; sourceTree = "<group>"; };
+		E5B553032054CEB000FA68E4 /* UpcomingBillsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingBillsResponse.swift; sourceTree = "<group>"; };
+		E5B553042054CEB000FA68E4 /* CosponsorsForBillResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosponsorsForBillResponse.swift; sourceTree = "<group>"; };
+		E5B553052054CEB000FA68E4 /* NetworkingKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingKit.swift; sourceTree = "<group>"; };
+		E5B553072054CEB000FA68E4 /* Chamber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chamber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		E5B552BE20549FC600FA68E4 /* CongressKit */ = {
 			isa = PBXGroup;
 			children = (
-				E5B552D62054A08600FA68E4 /* Classes */,
+				E5B552F62054CEB000FA68E4 /* Classes */,
 				E5B552BF20549FC600FA68E4 /* CongressKit.h */,
 				E5B552C020549FC600FA68E4 /* Info.plist */,
 			);
@@ -115,48 +115,47 @@
 			path = CongressKitTests;
 			sourceTree = "<group>";
 		};
-		E5B552D62054A08600FA68E4 /* Classes */ = {
+		E5B552F62054CEB000FA68E4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E5B552E52054A08600FA68E4 /* NetworkingKit.swift */,
-				E5B552D72054A08600FA68E4 /* URLRequestBuilder.swift */,
-				E5B552D82054A08600FA68E4 /* Responses */,
-				E5B552E62054A08600FA68E4 /* Models */,
+				E5B552F72054CEB000FA68E4 /* URLRequestBuilder.swift */,
+				E5B552F82054CEB000FA68E4 /* Responses */,
+				E5B553052054CEB000FA68E4 /* NetworkingKit.swift */,
+				E5B553062054CEB000FA68E4 /* Models */,
 			);
-			name = Classes;
-			path = ../../Congress/Congress/Classes;
-			sourceTree = "<group>";
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
-		E5B552D82054A08600FA68E4 /* Responses */ = {
+		E5B552F82054CEB000FA68E4 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
-				E5B552D92054A08600FA68E4 /* Bills */,
+				E5B552F92054CEB000FA68E4 /* Bills */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
 		};
-		E5B552D92054A08600FA68E4 /* Bills */ = {
+		E5B552F92054CEB000FA68E4 /* Bills */ = {
 			isa = PBXGroup;
 			children = (
-				E5B552DE2054A08600FA68E4 /* SearchBillsResponse.swift */,
-				E5B552DC2054A08600FA68E4 /* RecentBillsResponse.swift */,
-				E5B552DB2054A08600FA68E4 /* RecentBillsByMemberResponse.swift */,
-				E5B552E22054A08600FA68E4 /* RecentBillsBySubjectResponse.swift */,
-				E5B552E32054A08600FA68E4 /* UpcomingBillsResponse.swift */,
-				E5B552DA2054A08600FA68E4 /* SpecificBillResponse.swift */,
-				E5B552DD2054A08600FA68E4 /* AmendmentsForBillResponse.swift */,
-				E5B552DF2054A08600FA68E4 /* SubjectsForBillResponse.swift */,
-				E5B552E02054A08600FA68E4 /* RelatedBillsForBillResponse.swift */,
-				E5B552E12054A08600FA68E4 /* BillSubjectResponse.swift */,
-				E5B552E42054A08600FA68E4 /* CosponsorsForBillResponse.swift */,
+				E5B552FA2054CEB000FA68E4 /* SpecificBillResponse.swift */,
+				E5B552FB2054CEB000FA68E4 /* RecentBillsByMemberResponse.swift */,
+				E5B552FC2054CEB000FA68E4 /* RecentBillsResponse.swift */,
+				E5B552FD2054CEB000FA68E4 /* AmendmentsForBillResponse.swift */,
+				E5B552FE2054CEB000FA68E4 /* SearchBillsResponse.swift */,
+				E5B552FF2054CEB000FA68E4 /* SubjectsForBillResponse.swift */,
+				E5B553002054CEB000FA68E4 /* RelatedBillsForBillResponse.swift */,
+				E5B553012054CEB000FA68E4 /* BillSubjectResponse.swift */,
+				E5B553022054CEB000FA68E4 /* RecentBillsBySubjectResponse.swift */,
+				E5B553032054CEB000FA68E4 /* UpcomingBillsResponse.swift */,
+				E5B553042054CEB000FA68E4 /* CosponsorsForBillResponse.swift */,
 			);
 			path = Bills;
 			sourceTree = "<group>";
 		};
-		E5B552E62054A08600FA68E4 /* Models */ = {
+		E5B553062054CEB000FA68E4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E5B552E72054A08600FA68E4 /* Chamber.swift */,
+				E5B553072054CEB000FA68E4 /* Chamber.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -271,20 +270,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B552F12054A08600FA68E4 /* RecentBillsBySubjectResponse.swift in Sources */,
-				E5B552EA2054A08600FA68E4 /* RecentBillsByMemberResponse.swift in Sources */,
-				E5B552ED2054A08600FA68E4 /* SearchBillsResponse.swift in Sources */,
-				E5B552E82054A08600FA68E4 /* URLRequestBuilder.swift in Sources */,
-				E5B552F52054A08600FA68E4 /* Chamber.swift in Sources */,
-				E5B552EC2054A08600FA68E4 /* AmendmentsForBillResponse.swift in Sources */,
-				E5B552EF2054A08600FA68E4 /* RelatedBillsForBillResponse.swift in Sources */,
-				E5B552F02054A08600FA68E4 /* BillSubjectResponse.swift in Sources */,
-				E5B552EE2054A08600FA68E4 /* SubjectsForBillResponse.swift in Sources */,
-				E5B552F42054A08600FA68E4 /* NetworkingKit.swift in Sources */,
-				E5B552F32054A08600FA68E4 /* CosponsorsForBillResponse.swift in Sources */,
-				E5B552EB2054A08600FA68E4 /* RecentBillsResponse.swift in Sources */,
-				E5B552E92054A08600FA68E4 /* SpecificBillResponse.swift in Sources */,
-				E5B552F22054A08600FA68E4 /* UpcomingBillsResponse.swift in Sources */,
+				E5B553112054CEB000FA68E4 /* RecentBillsBySubjectResponse.swift in Sources */,
+				E5B5530A2054CEB000FA68E4 /* RecentBillsByMemberResponse.swift in Sources */,
+				E5B5530D2054CEB000FA68E4 /* SearchBillsResponse.swift in Sources */,
+				E5B553082054CEB000FA68E4 /* URLRequestBuilder.swift in Sources */,
+				E5B553152054CEB000FA68E4 /* Chamber.swift in Sources */,
+				E5B5530C2054CEB000FA68E4 /* AmendmentsForBillResponse.swift in Sources */,
+				E5B5530F2054CEB000FA68E4 /* RelatedBillsForBillResponse.swift in Sources */,
+				E5B553102054CEB000FA68E4 /* BillSubjectResponse.swift in Sources */,
+				E5B5530E2054CEB000FA68E4 /* SubjectsForBillResponse.swift in Sources */,
+				E5B553142054CEB000FA68E4 /* NetworkingKit.swift in Sources */,
+				E5B553132054CEB000FA68E4 /* CosponsorsForBillResponse.swift in Sources */,
+				E5B5530B2054CEB000FA68E4 /* RecentBillsResponse.swift in Sources */,
+				E5B553092054CEB000FA68E4 /* SpecificBillResponse.swift in Sources */,
+				E5B553122054CEB000FA68E4 /* UpcomingBillsResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
