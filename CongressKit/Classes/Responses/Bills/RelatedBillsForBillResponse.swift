@@ -20,7 +20,7 @@ public struct RelatedBillsForBillResponse: Codable {
         public let billUri: String
         public let committees: String
         public let congress: String
-        public let housePassageVote: String
+        public let housePassageVote: String?
         public let introducedDate: String
         public let latestMajorAction: String
         public let latestMajorActionDate: String

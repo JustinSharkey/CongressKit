@@ -14,7 +14,6 @@ public struct CosponsorsForBillResponse: Codable {
     public let status: String
     
     public struct Result: Codable {
-        public let bill: String
         public let committees: String
         public let congress: String
         public let cosponsors: [Cosponsor]
@@ -35,7 +34,6 @@ public struct CosponsorsForBillResponse: Codable {
         public let urlNumber: String
         
         private enum CodingKeys: String, CodingKey {
-            case bill
             case committees
             case congress
             case cosponsors

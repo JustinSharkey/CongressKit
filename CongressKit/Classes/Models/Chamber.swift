@@ -11,5 +11,4 @@ import Foundation
 public enum Chamber: String {
     case senate = "senate"
     case house = "house"
-    case both = "both"
 }

@@ -24,16 +24,16 @@ final public class URLRequestBuilder {
 
 extension URLRequestBuilder {
     
-    public func recentBills(congress: Int, chamber: Chamber, type: String) -> URLRequest {
-        return createRequest(urlString: baseUrlString + "\(congress)/\(chamber.rawValue)/bills/\(type).json")
+    public func recentBills(congress: Int, chamber: Chamber, type: BillStatus) -> URLRequest {
+        return createRequest(urlString: baseUrlString + "\(congress)/\(chamber.rawValue)/bills/\(type.rawValue).json")
     }
     
     public func searchBills(query: String) -> URLRequest {
         return createRequest(urlString: baseUrlString + "bills/search.json?query=\(query)")
     }
     
-    public func recentBillsByMember(memberId: String, type: String) -> URLRequest {
-        return createRequest(urlString: baseUrlString + "members/\(memberId)/bills/\(type).json")
+    public func recentBillsByMember(memberId: String, type: BillStatus) -> URLRequest {
+        return createRequest(urlString: baseUrlString + "members/\(memberId)/bills/\(type.rawValue).json")
     }
     
     public func recentBillsBySubject(subject: String) -> URLRequest {

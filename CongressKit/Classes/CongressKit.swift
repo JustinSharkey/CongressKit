@@ -8,28 +8,9 @@
 
 import Foundation
 
-public enum Response<T> {
-    case success(T)
-    case failure(Error)
-}
-
-public enum NKError: Error {
-    case data
-    case json
+final public class CongressKit {
     
-    var localizedDescription: String {
-        switch self {
-        case .data:
-            return "Unable to unwrap data"
-        case .json:
-            return "Unable to decode json"
-        }
-    }
-}
-
-final public class NetworkingKit {
-    
-    public static let shared: NetworkingKit = NetworkingKit()
+    public static let shared: CongressKit = CongressKit()
     
     private let session: URLSession = URLSession(configuration: URLSessionConfiguration.default)
     
@@ -44,7 +25,7 @@ final public class NetworkingKit {
                 return
             }
             guard let responseData = responseData else {
-                completion(.failure(NKError.data))
+                completion(.failure(CKError.data))
                 return
             }
             do {
@@ -58,19 +39,19 @@ final public class NetworkingKit {
     }
 }
 
-extension NetworkingKit {
+extension CongressKit {
     
     public func searchBills(query: String, completion: @escaping (Response<SearchBillsResponse>) -> Void) {
         let request: URLRequest = URLRequestBuilder().searchBills(query: query)
         sendRequest(type: SearchBillsResponse.self, request: request, completion: completion)
     }
     
-    public func recentBills(congress: Int, chamber: Chamber, type: String, completion: @escaping (Response<RecentBillsResponse>) -> Void) {
+    public func recentBills(congress: Int, chamber: Chamber, type: BillStatus, completion: @escaping (Response<RecentBillsResponse>) -> Void) {
         let request: URLRequest = URLRequestBuilder().recentBills(congress: congress, chamber: chamber, type: type)
         sendRequest(type: RecentBillsResponse.self, request: request, completion: completion)
     }
     
-    public func recentBillsByMember(memberId: String, type: String, completion: @escaping (Response<RecentBillsByMemberResponse>) -> Void) {
+    public func recentBillsByMember(memberId: String, type: BillStatus, completion: @escaping (Response<RecentBillsByMemberResponse>) -> Void) {
         let request: URLRequest = URLRequestBuilder().recentBillsByMember(memberId: memberId, type: type)
         sendRequest(type: RecentBillsByMemberResponse.self, request: request, completion: completion)
     }
@@ -103,5 +84,15 @@ extension NetworkingKit {
     public func relatedBillsForBill(congress: Int, billId: String, completion: @escaping (Response<RelatedBillsForBillResponse>) -> Void) {
         let request: URLRequest = URLRequestBuilder().relatedBillsForBill(congress: congress, billId: billId)
         sendRequest(type: RelatedBillsForBillResponse.self, request: request, completion: completion)
+    }
+    
+    public func billSubject(query: String, completion: @escaping (Response<BillSubjectResponse>) -> Void) {
+        let request: URLRequest = URLRequestBuilder().billSubjects(query: query)
+        sendRequest(type: BillSubjectResponse.self, request: request, completion: completion)
+    }
+    
+    public func cosponsorsForBill(congress: Int, billId: String, completion: @escaping (Response<CosponsorsForBillResponse>) -> Void) {
+        let request: URLRequest = URLRequestBuilder().cosponsorsForBill(congress: congress, billId: billId)
+        sendRequest(type: CosponsorsForBillResponse.self, request: request, completion: completion)
     }
 }
